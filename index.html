@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Paramveer Singh">
+  <title>Basic Computer Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="quiz-card" id="quiz-card">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="step-indicator" id="step-indicator"></div>
+
+      <div class="quiz-content" id="quiz-content"></div>
+
+      <div class="nav-buttons">
+        <button id="prev-btn" class="btn btn-outline">Previous</button>
+        <button id="skip-btn" class="btn btn-skip">Skip</button>
+        <button id="next-btn" class="btn btn-primary">Next</button>
+      </div>
+
+      <div id="result-box" class="result-box hidden">
+        <div class="result-content"></div>
+        <button id="play-again-btn" class="btn btn-primary play-again-btn">Play Again</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
